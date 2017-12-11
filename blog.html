@@ -8,19 +8,14 @@
     <!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8">
-	<title>zSoodany</title>
-	<meta name="description" content="Free Responsive Html5 Css3 Templates Designed by Kimmy | chinaz.com">
-	<meta name="author" content="sc.chinaz.com">
-	
-    <!-- Mobile Specific Metas
-  ================================================== -->
+	<title>梦幻天堂</title>
+	<meta name="description" content="Personal Blog For small_windor | longtengfly.com">
+	<meta name="author" content="longtengfly.com">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
-    <!-- CSS
-  ================================================== -->
   	<link rel="stylesheet" href="css/zerogrid.css">
 	<link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/main.css">
 	
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
@@ -34,34 +29,31 @@
 		<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
 	
-	<link href='./images/favicon.ico' rel='icon' type='image/x-icon'/>
-    
+	<link href='./images/eye.gif' rel='icon' type='image/x-icon'/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/blog.js"></script>
 </head>
 <body>
 <div class="wrap-body zerogrid">
-<!--------------Header--------------->
 <header>
 	<div class="wrap-header">
-		
 		<div class="top">
-			<div class="socials">
-				<ul>
-					<li><a href="#" title="facebook"><img  src="images/socials/facebook-32x32.png"/></a></li>
-					<li><a href="#" title="google"><img  src="images/socials/google-32x32.png"/></a></li>
-					<li><a href="#" title="twitter"><img  src="images/socials/twitter-32x32.png"/></a></li>
-					<li><a href="#" title="rss"><img  src="images/socials/rss-32x32.png"/></a></li>
-					<li><a href="#" title="youtube"><img  src="images/socials/youtube-32x32.png"/></a></li>
+			<div class="top-left">
+				<ul class="link-list">
+					<li><a href="https://github.com/longtengfei2016" title="git" class="git-link" target="_blank"><img  src="images/github.png"/></a></li>
+					<li style="width:100px;"><a href="http://www.cnblogs.com/longtengfly/" title="blog" class="blog-link" target="_blank"><img  src="images/blog.png"/></a></li>
+					<li><a href="https://segmentfault.com/u/xiaofengge" title="sf" class="sf-link" target="_blank">sf</a></li>
 				</ul>
 			</div>
 			<div id="search">
 				<div class="button-search"></div>
-				<input type="text" value="Search..." onfocus="if (this.value == &#39;Search...&#39;) {this.value = &#39;&#39;;}" onblur="if (this.value == &#39;&#39;) {this.value = &#39;Search...&#39;;}">
+				<input id="searchInput" type="text" placeholder="Search...">
 			</div>
 		</div>
 		
 		<div id="logo">
-			<a href="http://sc.chinaz.com"><h1>zSoodany</h1></a>
-			<p>chinaz.com | Free Responsive Html5 and Css3 Templates</p>
+			<div class="animate-one">I leave no trace of wings in the air,<br>天空没留下我的痕迹，</div>
+			<div class="animate-two">but I am glad I have had my flight.<br>但我已飞过。</div>
 		</div>
 		
 		<nav>
@@ -69,9 +61,9 @@
 				<div class="menu">
 					<ul>
 						<li><a href="index.html">Home</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Gallery</a></li>
-						<li><a href="#">About</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="blog.html">Gallery</a></li>
+						<li><a href="blog.html">About</a></li>
 						<li><a href="#">Contact</a></li>
 					</ul>
 				</div>
@@ -80,24 +72,6 @@
 		
 	</div>
 </header>
-<div align=center>
-<div style=“width:960px; margin:0 auto; height:90px;”>
-<script>
-(function() {
-    var s = "_" + Math.random().toString(36).slice(2);
-    document.write('<div id="' + s + '"></div>');
-    (window.slotbydup=window.slotbydup || []).push({
-        id: '730419',
-        container: s,
-        size: '960,90',
-        display: 'inlay-fix'
-    });
-})();
-</script>
-<script src="http://dup.baidustatic.com/js/os.js"></script>
-</div>
-</div>
-<!--------------Content--------------->
 <section id="content">
 	<div class="wrap-content">
 		<div class="row block">
@@ -105,16 +79,16 @@
 				<div class="wrap-col">
 					<article>
 						<div class="heading">
-							<h2><a href="#">Sed accumsan libero quis mi commodo et suscipit</a></h2>
+							<h2><a href="#">这只是个人网站的测试标题</a></h2>
 						</div>
 						<div class="content">
-							<img src="images/img1.jpg" width="100%"/>
+							<img src="images/image1.jpg" width="100%"/>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque. Curabitur vel urna. In tristique orci porttitor ipsum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo.</p>
 						</div>
 						<div class="info">
-							<p>By Admin on December 01, 2012 - <a href="#">01 Commnets</a></p>
+							<p>By longtengfly on December 01, 2017 - <a href="#">01 Commnets</a></p>
 						</div>
 					</article>
 					
@@ -138,56 +112,59 @@
 			<div id="sidebar" class="col-1-3">
 				<div class="wrap-col">
 					<div class="box">
-						<div class="heading"><h2>About us</h2></div>
+						<div class="heading"><h2>About me</h2></div>
 						<div class="content">
-							<a href="http://sc.chinaz.com" target="_blank"><img src="images/chinaz.jpg" style="border: 0px;"/></a>
-							<p>Free Html5 Templates created by <a href="http://sc.chinaz.com">chinaz</a>. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.</p>
+							<img src="images/weixin.png" class="weixin"/>
+							<p>一个漫步在迷途中的小前端~如果你跟我一样对未来充满幻想，当然也有希望...让我们手牵手，加个微信,做个好友@_@,关于我的更多故事，请点击
+								<a class="link-life">[小风哥的人生路]</a>
+							</p>
 						</div>
 					</div>
 					<div class="box">
-						<div class="heading"><h2>Categories</h2></div>
+						<div class="heading"><h2>热门帖子</h2></div>
 						<div class="content">
 							<ul>
-								<li><a href="http://sc.chinaz.com">Free Html5 Templates</a></li>
-								<li><a href="http://sc.chinaz.com">Free Responsive Themes</a></li>
-								<li><a href="http://sc.chinaz.com">Free Html5 and Css3 Themes</a></li>
-								<li><a href="http://sc.chinaz.com">Free Responsive Html5 and Css3 Themes</a></li>
-								<li><a href="http://sc.chinaz.com">Free Basic Responsive Html5 Css3 Layouts</a></li>
-								<li><a href="http://sc.chinaz.com">Premium Responsive Html5 Css3 Templates</a></li>
+								<li><a href="">都是热门的帖子</a></li>
+								<li><a href="">都是热门的帖子</a></li>
+								<li><a href="">都是热门的帖子</a></li>
+								<li><a href="">都是热门的帖子</a></li>
+								<li><a href="">都是热门的帖子</a></li>
+								<li><a href="">都是热门的帖子</a></li>
 							</ul>
 						</div>
 					</div>
-                    <div style=“width:300px; margin:0 auto; height:250px”>
-<script>
-(function() {
-    var s = "_" + Math.random().toString(36).slice(2);
-    document.write('<div id="' + s + '"></div>');
-    (window.slotbydup=window.slotbydup || []).push({
-        id: '864895',
-        container: s,
-        size: '300,250',
-        display: 'inlay-fix'
-    });
-})();
-</script>
-<script src="http://dup.baidustatic.com/js/os.js"></script>
-</div>
+					<!-- 这里打广告 -->
+                    <!-- <div style=“width:300px; margin:0 auto; height:250px”>
+						<script>
+						(function() {
+							var s = "_" + Math.random().toString(36).slice(2);
+							document.write('<div id="' + s + '"></div>');
+							(window.slotbydup=window.slotbydup || []).push({
+								id: '864895',
+								container: s,
+								size: '300,250',
+								display: 'inlay-fix'
+							});
+						})();
+						</script>
+						<script src="http://dup.baidustatic.com/js/os.js"></script>
+					</div> -->
 					<div class="box">
-						<div class="heading"><h2>Popular Post</h2></div>
+						<div class="heading"><h2>热门评论</h2></div>
 						<div class="content">
 							<div class="post">
-								<img src="images/img4.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
+								<img src="images/image1.jpg" width="50px"/>
+								<h4><a href="#">热门的评论</a></h4>
 								<p>November 11 ,2012</p>
 							</div>
 							<div class="post">
-								<img src="images/img5.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
+								<img src="images/image2.jpg" width="50px"/>
+								<h4><a href="#">热门的评论</a></h4>
 								<p>November 11 ,2012</p>
 							</div>
 							<div class="post">
-								<img src="images/img1.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
+								<img src="images/image3.jpg" width="50px"/>
+								<h4><a href="#">热门的评论</a></h4>
 								<p>November 11 ,2012</p>
 							</div>
 						</div>
@@ -197,9 +174,8 @@
 		</div>
 	</div>
 </section>
-<!--------------Footer--------------->
 <footer>
-	<div class="wrap-footer">
+	<!-- <div class="wrap-footer">
 		<div class="row">
 			<div class="col-1-3">
 				<div class="wrap-col">
@@ -241,13 +217,12 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="copyright">
-		<p>&copy; Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		<p> Copyright © 2017-2018 longtengfly. 粤ICP备 17157403号 <a target="_blank" href="http://www.longtengfly.com/">个人网站</a></p>
 	</div>
 </footer>
 
 </div>
-<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
 </body>
 </html>

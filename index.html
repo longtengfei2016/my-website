@@ -27,7 +27,8 @@
 	<![endif]-->
 	
 	<link href='./images/eye.gif' rel='icon' type='image/x-icon'/>
-    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 <body>
 <div class="wrap-body zerogrid">
@@ -48,8 +49,8 @@
 		</div>
 		
 		<div id="logo">
-			<div class="animate-one">I leave no trace of wings in the air</div>
-			<h1 class="animate-two">but I am glad I have had my flight</h1>
+			<div class="animate-one">I leave no trace of wings in the air,<br>天空没留下我的痕迹，</div>
+			<div class="animate-two">but I am glad I have had my flight.<br>但我已飞过。</div>
 		</div>
 		
 		<nav>
@@ -75,39 +76,41 @@
 				<div class="wrap-col">
 					<article>
 						<div class="heading">
-							<h2><a href="#">Sed accumsan libero quis mi commodo et suscipit</a></h2>
+							<h2><a href="#">这只是个人网站的测试标题</a></h2>
 						</div>
 						<div class="content">
-							<img src="images/img1.jpg" width="250px" height="100px"/>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum [...]</p>
+							<img src="images/image1.jpg" width="250px" height="100px"/>
+							<p>这段文字的内容我坚决控制在400个字以内，但是绝对不能少于200个字，否则会很难看，但两百字依然是个不小的数目，作文才八百字，这个比讲故事还难啊，，不信的话你可以测试一下。如果超出了，你不要以为我会做什么控制，顶多加个省略号，让你看起来舒服点 [...]</p>
 		
 						</div>
 						<div class="info">
-							<p>By Admin on December 01, 2012 - <a href="#">01 Commnets</a></p>
+							<p>By longtengfly on December 01, 2017 - <a href="#">01 Commnets</a></p>
 						</div>
 					</article>
 					<article>
 						<div class="heading">
-							<h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
+							<h2><a href="#">这只是个人网站的测试标题</a></h2>
 						</div>
 						<div class="content">
-							<img src="images/img2.jpg" width="250px" height="100px"/>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum [...]</p>
+							<img src="images/image2.jpg" width="250px" height="100px"/>
+							<p>这段文字的内容我坚决控制在400个字以内，但是绝对不能少于200个字，否则会很难看，但两百字依然是个不小的数目，作文才八百字，这个比讲故事还难啊，，不信的话你可以测试一下。如果超出了，你不要以为我会做什么控制，顶多加个省略号，让你看起来舒服点 [...]</p>
+		
 						</div>
 						<div class="info">
-							<p>By Admin on December 01, 2012 - <a href="#">01 Commnets</a></p>
+							<p>By longtengfly on December 01, 2017 - <a href="#">01 Commnets</a></p>
 						</div>
 					</article>
 					<article>
 						<div class="heading">
-							<h2><a href="#">Morbi rutrum vulputate est sed faucibus</a></h2>
+							<h2><a href="#">这只是个人网站的测试标题</a></h2>
 						</div>
 						<div class="content">
-							<img src="images/img3.jpg" width="250px" height="100px"/>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra convallis auctor. Sed accumsan libero quis mi commodo et suscipit enim lacinia. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum. Morbi rutrum vulputate est sed faucibus. Nulla sed nisl mauris, id tristique tortor. Sed iaculis dapibus urna nec dictum [...]</p>
+							<img src="images/image3.jpg" width="250px" height="100px"/>
+							<p>这段文字的内容我坚决控制在400个字以内，但是绝对不能少于200个字，否则会很难看，但两百字依然是个不小的数目，作文才八百字，这个比讲故事还难啊，，不信的话你可以测试一下。如果超出了，你不要以为我会做什么控制，顶多加个省略号，让你看起来舒服点 [...]</p>
+		
 						</div>
 						<div class="info">
-							<p>By Admin on December 01, 2012 - <a href="#">01 Commnets</a></p>
+							<p>By longtengfly on December 01, 2017 - <a href="#">01 Commnets</a></p>
 						</div>
 					</article>
 				</div>
@@ -115,42 +118,44 @@
 			<div id="sidebar" class="col-1-3">
 				<div class="wrap-col">
 					<div class="box">
-						<div class="heading"><h2>About us</h2></div>
+						<div class="heading"><h2>About me</h2></div>
 						<div class="content">
-							<img src="images/zerotheme.jpg" style="border: 0px;"/>
-							<p>Html5 Templates created by chinaz. You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files.</p>
+							<img src="images/weixin.png" class="weixin"/>
+							<p>一个漫步在迷途中的小前端~如果你跟我一样对未来充满幻想，当然也有希望...让我们手牵手，加个微信,做个好友@_@,关于我的更多故事，请点击
+								<a class="link-life">[小风哥的人生路]</a>
+							</p>
 						</div>
 					</div>
 					<div class="box">
-						<div class="heading"><h2>Categories</h2></div>
+						<div class="heading"><h2>热门帖子</h2></div>
 						<div class="content">
 							<ul>
-								<li><a href="">Free Html5 Templates</a></li>
-								<li><a href="">Free Responsive Themes</a></li>
-								<li><a href="">Free Html5 and Css3 Themes</a></li>
-								<li><a href="">Free Responsive Html5 and Css3 Themes</a></li>
-								<li><a href="">Free Basic Responsive Html5 Css3 Layouts</a></li>
-								<li><a href="">Premium Responsive Html5 Css3 Templates</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
+								<li><a href="">这些都是热门的帖子</a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="box">
-						<div class="heading"><h2>Popular Post</h2></div>
+						<div class="heading"><h2>热门评论</h2></div>
 						<div class="content">
 							<div class="post">
-								<img src="images/img4.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
-								<p>November 11 ,2012</p>
+								<img src="images/image1.jpg" width="50px"/>
+								<h4><a href="#">都是热门评论</a></h4>
+								<p>November 11 ,2017</p>
 							</div>
 							<div class="post">
-								<img src="images/img5.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
-								<p>November 11 ,2012</p>
+								<img src="images/image2.jpg" width="50px"/>
+								<h4><a href="#">都是热门评论</a></h4>
+								<p>November 11 ,2017</p>
 							</div>
 							<div class="post">
-								<img src="images/img1.jpg" width="50px"/>
-								<h4><a href="#">Lorem ipsum dolor sit</a></h4>
-								<p>November 11 ,2012</p>
+								<img src="images/image3.jpg" width="50px"/>
+								<h4><a href="#">都是热门评论</a></h4>
+								<p>November 11 ,2017</p>
 							</div>
 						</div>
 					</div>
@@ -160,7 +165,7 @@
 	</div>
 </section>
 <footer>
-	<div class="wrap-footer">
+	<!-- <div class="wrap-footer">
 		<div class="row">
 			<div class="col-1-3">
 				<div class="wrap-col">
@@ -202,9 +207,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="copyright">
-		<p>&copy; Copyright &copy; 2017.longtengfly All rights reserved.<a target="_blank" href="http://www.longtengfly.com/">个人网站</a></p>
+		<p> Copyright © 2017-2018 longtengfly. 粤ICP备 17157403号 <a target="_blank" href="http://www.longtengfly.com/">个人网站</a></p>
 	</div>
 </footer>
 

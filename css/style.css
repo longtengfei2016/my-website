@@ -60,7 +60,7 @@ body {background: #999999;color: #A5A5A5;font: 16px/25px 'Droid Sans',sans-serif
 body .wrap-body{background:#ffffff; margin: 30px auto; padding: 30px;}
 
 a{color: #76D2C5;text-decoration: none;}
-a:hover {color: #474747; text-decoration: none;}
+a:hover {color: #52bdae; text-decoration: none;}
 
 a.button{cursor: pointer;color: #ffffff;line-height: 14px;font-family: Arial, Helvetica, sans-serif;font-size: 14px;font-weight: bold;	background: #3F3F3F;border:1px solid #ffffff; -webkit-border-radius: 4px;-moz-border-radius: 4px;-khtml-border-radius: 4px;border-radius: 4px;}
 a.button {	display: inline-block;	text-decoration: none;	padding: 6px 12px 6px 12px;}

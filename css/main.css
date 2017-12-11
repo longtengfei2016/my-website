@@ -35,7 +35,20 @@
 }
 .animate-one{
     display: none;
+    font-size: 20px;
 }
 .animate-two{
     display: none;
+    font-size: 20px;
+}
+.link-life{
+    color: #76D2C5;
+    cursor: pointer;
+}
+.link-life:hover{
+    color:#52bdae
+}
+.weixin{
+    border: 0;
+    width: 100px;
 }
